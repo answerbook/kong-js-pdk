@@ -42,4 +42,4 @@ function parse(dedicated) {
   return opts
 }
 
-module.exports.parse = parse
+module.exports = {parse}
